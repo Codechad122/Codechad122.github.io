@@ -9,8 +9,9 @@
     width: 100%;
     align-items: center;
     background-color: rgb(75 85 99);
-    
-
+    animation-duration: 3s;
+    animation-name: slidedown;
+    animation-timing-function: ease-in-out
 }
 
 .header-container h1 {
@@ -36,6 +37,36 @@
     color: rgb(56 189 248);
 }
 
+@keyframes slideup {
+    from {
+        translate: 0% 150%;
+    }
+
+    to {
+        translate: 0% 0%
+    }
+}
+
+@keyframes slidedown {
+    from {
+        translate: 0% -150%;
+    }
+
+    to {
+        translate: 0% 0%
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
 .grid-container {
     display: grid;
     padding: 16px;
@@ -44,6 +75,9 @@
     gap: 16px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     height: 100%;
+    animation-duration: 6s;
+    animation-name: fadein;
+    animation-timing-function: ease-in-out
 
 }
 
@@ -78,6 +112,9 @@
     padding: 16px;
     gap: 16px;
     min-height: 100vh;
+    animation-duration: 3s;
+    animation-name: slideup;
+    animation-timing-function: ease-in-out
 }
 
 .side-bar div {
