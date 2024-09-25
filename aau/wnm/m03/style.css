@@ -140,3 +140,15 @@
 .side-bar ul li {
     text-decoration: underline;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+}
