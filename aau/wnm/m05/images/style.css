@@ -1,3 +1,6 @@
+.body{
+    background-color: 4B5563;
+}
 .header-container {
     display: flex;
     flex-direction: column;
