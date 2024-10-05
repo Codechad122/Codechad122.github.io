@@ -22,7 +22,7 @@
 
 .header-container nav {
     color: white;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .header-container nav ul {
@@ -83,7 +83,7 @@
     margin-left: auto;
     margin-right: auto;
     gap: 16px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     height: 100%;
     animation-duration: 6s;
     animation-name: fadein;
