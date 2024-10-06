@@ -7,8 +7,21 @@
     justify-items: center;
 }
 
+.header div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 896px;
+}
+
+.navbar {
+    justify-self: center;
+    width: 100%;
+}
+
 .navbar ul {
     display: flex;
+    justify-content: center;
 }
 
 .gallery-container {
