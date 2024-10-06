@@ -23,3 +23,91 @@
     display: flex;
     justify-content: center;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    gap: 16px;
+    max-width: 896px;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+    
+}
+
+.grid-info {
+    align-content: center;
+}
+
+.grid-image {
+    height: 422px;
+    width: 447px;
+    background-color: aquamarine;
+    border-radius: 8px;
+}
+
+.info {
+    display: flex;
+    max-width: 896px;
+    min-width: 100%;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.info p {
+    max-width: 896px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    gap: 16px;
+    max-width: 896px;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.info-card {
+    height: 236px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: aqua;
+    position: relative;
+}
+
+.info-card-message {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    background-color: aliceblue;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+
+
+}
+
+.img-card {
+    background-color: aquamarine;
+    height: 210px;
+    width: 222px;
+    border-radius: 8px;
+}
+
+

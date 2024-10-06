@@ -9,21 +9,19 @@
 
 .header div {
     display: flex;
-    min-width: 100%;
+    width: 100%;
     justify-content: space-between;
     max-width: 896px;
 }
 
 .navbar {
     justify-self: center;
-    justify-content: center;
     width: 100%;
 }
 
 .navbar ul {
     display: flex;
     justify-content: center;
-    justify-self: center;
 }
 
 .pageTitle {
