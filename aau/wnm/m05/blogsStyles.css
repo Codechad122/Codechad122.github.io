@@ -23,3 +23,47 @@
     display: flex;
     justify-content: center;
 }
+
+.pageTitle {
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 16px;
+
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    gap: 16px;
+    max-width: 896px;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: aquamarine;
+    height: 210px;
+    width: 222px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.cardText {
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+    align-items: end;
+    position: absolute;
+    bottom: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
