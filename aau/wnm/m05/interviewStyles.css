@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    width: 100%;
+    justify-items: center;
+}
+
+.header div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 896px;
+}
+
+.navbar {
+    justify-self: center;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    
+}
