@@ -9,17 +9,53 @@
 
 .header div {
     display: flex;
-    width: 100%;
+    min-width: 100%;
     justify-content: space-between;
     max-width: 896px;
 }
 
 .navbar {
     justify-self: center;
+    justify-content: center;
     width: 100%;
 }
 
 .navbar ul {
     display: flex;
     justify-content: center;
+    justify-self: center;
+}
+
+.pageTitle {
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 16px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    gap: 16px;
+    max-width: 896px;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.animationCard {
+    background-color: aquamarine;
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
 }
