@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    width: 100%;
+    justify-items: center;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    gap: 16px;
+    max-width: 896px;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: aquamarine;
+    height: 210px;
+    width: 222px;
+    border-radius: 8px;
+}
+
+.pageTitle {
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 16px;
+
+}
