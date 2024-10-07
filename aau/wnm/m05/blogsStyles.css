@@ -68,3 +68,7 @@
     border-bottom-right-radius: 8px;
 }
 
+.responsive {
+    width: 100%;
+    height: 200px;
+  }
