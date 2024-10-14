@@ -16,6 +16,7 @@ function createGalleryCards(altTxt, imgSrc, id, blogText) {
         let modalText = document.createElement('p')
         modalText.innerText = blogText
         const modalClose = document.createElement("button")
+        modalClose.className = 'dialog-close-button'
         modalClose.innerText = "Close"
         modalClose.addEventListener("click", () => {
             while (modal.firstChild){
@@ -25,7 +26,7 @@ function createGalleryCards(altTxt, imgSrc, id, blogText) {
         })
         modal.appendChild(modalText)
         modal.appendChild(modalClose)
-        modal.show()
+        modal.showModal()
     })
     
     card.appendChild(modalButton)
