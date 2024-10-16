@@ -154,7 +154,7 @@
 
 @keyframes fade {
     0% {
-        translate: scale(0.01);
+        transform: scale(0.01);
         opacity: 0;
 
     }
@@ -168,9 +168,58 @@
 }
 
 #fade{
+    width: 100%;
+    height: 100%;
     background-color: #04AA6D;
     animation: fade 2s;
     animation-timing-function: ease-in-out;
+}
+
+@keyframes slide {
+    0% {
+        translate: 0% 50%;
+        opacity: 0;
+
+    }
+
+    100% {
+        transform: 50% 50%;
+        opacity: 1;
+    }
+
+    
+}
+
+#slide{
+    width: 100%;
+    height: 100%;
+    background-color: #04AA6D;
+    animation: slide 2s;
+    animation-timing-function: ease-in-out;
+}
+
+#rotate {
+    width: 100%;
+    height: 100%;
+    background-color: #04AA6D;
+}
+
+@keyframes rotateKeyFrame {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 45deg;
+
+    }
+    
+}
+
+#rotate:hover{
+    animation: rotateKeyFrame 3s;
+    animation-timing-function: ease-in-out;
+
 }
 
 .footer {
