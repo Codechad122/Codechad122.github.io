@@ -126,18 +126,20 @@
 }
 
 .info-card {
-    height: 236px;
+    height: 100%;
     width: 100%;
     border-radius: 8px;
-    background-color: aqua;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
 }
 
 .info-card-message {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
     background-color: aliceblue;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
