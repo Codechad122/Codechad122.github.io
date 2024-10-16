@@ -152,6 +152,27 @@
 
 }
 
+@keyframes fade {
+    0% {
+        translate: scale(0.01);
+        opacity: 0;
+
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    
+}
+
+#fade{
+    background-color: #04AA6D;
+    animation: fade 2s;
+    animation-timing-function: ease-in-out;
+}
+
 .footer {
     text-align: center;
 }
