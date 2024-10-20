@@ -26,18 +26,7 @@ const images = [
 const imageAlts = ["img-1", "img-2", "img-3", "img-4", "img-5", "img-6", "img-7", "img-8", "img-9", "img-10", "img-11", "img-12"]
 
 const blogLinks = [
-    "First Image of Ker",
-    "Second image of Ker",
-    "Ferrets eating",
-    "Image of chicken",
-    "Image of bread",
-    "Image of sausces",
-    "Broccoli",
-    "Image of breadsticks",
-    "Image of Valkyrie",
-    "Destiny 2",
-    "Hunter destiny 2",
-    "Titan destiny 2",
+    "/home",
 ]
 let pointer = 0
 while (pointer < images.length) {
