@@ -1,4 +1,4 @@
-function createBlogCards(altTxt, imgSrc, id, blogText) {
+function createBlogCards(altTxt, imgSrc, id, link) {
     const card = document.createElement("div")
     card.className = "card"
 
@@ -7,42 +7,25 @@ function createBlogCards(altTxt, imgSrc, id, blogText) {
     cardImg.alt = altTxt
     card.appendChild(cardImg)
 
-    const modalButton = document.createElement("button")
-    modalButton.innerText = "More Info"
-    modalButton.id = id
-    modalButton.addEventListener("click", () => {
-        const modal = document.getElementById("blog-dialog")
-        let modalText = document.createElement('p')
-        modalText.innerText = blogText
-        const modalClose = document.createElement("button")
-        modalClose.className = 'dialog-close-button'
-        modalClose.innerText = "Close"
-        modalClose.addEventListener("click", () => {
-            while (modal.firstChild){
-                modal.removeChild(modal.firstChild)
-            }
-            modal.close()
-        })
-        modal.appendChild(modalText)
-        modal.appendChild(modalClose)
-        modal.showModal()
-    })
-    card.appendChild(modalButton)
+    const blogLink = document.createElement("a")
+    blogLink.className = "blogLink"
+    blogLink.innerText = "More Info"
+    blogLink.id = id
+    blogLink.href = link
+    card.appendChild(blogLink)
     document.getElementById("blog-grid").appendChild(card)
 
 }
 
 const images = ["images/bungie_blog (1).jpg", "images/elder_scrolls_blog (1).jpg"]
 const imgAlts = ["img-1", "img-2"]
-const blogTexts = [
-    "Blog post info 1",
-    "Blog post info 2",
+const blogLinks = [
+    "/",
+    "/",
 ]
 
 let pointer = 0
 while (pointer < images.length){
-    createBlogCards(imgAlts[pointer], images[pointer], `blog-post-${pointer}`, blogTexts[pointer])
+    createBlogCards(imgAlts[pointer], images[pointer], `blog-post-${pointer}`, blogLinks[pointer])
     pointer += 1
-}
-for (const imageAlt of imgAlts) {
 }

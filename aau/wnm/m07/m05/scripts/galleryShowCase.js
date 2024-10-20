@@ -1,5 +1,5 @@
 
-function createGalleryCards(altTxt, imgSrc, id, blogText) {
+function createGalleryCards(altTxt, imgSrc, id, link) {
     const card = document.createElement("div")
     card.className = "card"
     
@@ -8,28 +8,12 @@ function createGalleryCards(altTxt, imgSrc, id, blogText) {
     cardImg.alt = altTxt
     card.appendChild(cardImg)
     
-    const modalButton = document.createElement("button")
-    modalButton.innerText = "More Info"
-    modalButton.id = id
-    modalButton.addEventListener("click", () => {
-        const modal = document.getElementById("dialog")
-        let modalText = document.createElement('p')
-        modalText.innerText = blogText
-        const modalClose = document.createElement("button")
-        modalClose.className = 'dialog-close-button'
-        modalClose.innerText = "Close"
-        modalClose.addEventListener("click", () => {
-            while (modal.firstChild){
-                modal.removeChild(modal.firstChild)
-            }
-            modal.close()
-        })
-        modal.appendChild(modalText)
-        modal.appendChild(modalClose)
-        modal.showModal()
-    })
-    
-    card.appendChild(modalButton)
+    const blogLink = document.createElement("a")
+    blogLink.className = "blogLink"
+    blogLink.innerText = "More Info"
+    blogLink.id = id
+    blogLink.href = link
+    card.appendChild(blogLink)
     document.getElementById("gallery-images").appendChild(card)
 
 }
@@ -41,7 +25,7 @@ const images = [
 
 const imageAlts = ["img-1", "img-2", "img-3", "img-4", "img-5", "img-6", "img-7", "img-8", "img-9", "img-10", "img-11", "img-12"]
 
-const blogPost = [
+const blogLinks = [
     "First Image of Ker",
     "Second image of Ker",
     "Ferrets eating",
@@ -57,6 +41,6 @@ const blogPost = [
 ]
 let pointer = 0
 while (pointer < images.length) {
-    createGalleryCards(imageAlts[pointer], images[pointer], `gallery-modal-${pointer}`, blogPost[pointer])
+    createGalleryCards(imageAlts[pointer], images[pointer], `gallery-modal-${pointer}`, blogLinks[pointer])
     pointer += 1
 }
