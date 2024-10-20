@@ -10,7 +10,7 @@ function createInterviewCards(altTxt, imgSrc) {
 
 }
 
-const images = ["images/Valkyrie-home-resized.jpg", "images/Valkyrie-home-resized.jpg", "images/Valkyrie-home-resized.jpg", "images/Valkyrie-home-resized.jpg", "images/Valkyrie-home-resized.jpg", "images/Valkyrie-home-resized.jpg"]
+const images = ["images/ryans-question-1.jpg", "images/ryans-question-2.jpg", "images/ryans-question-3.jpg", "images/ryans-question-4.jpg", "images/ryans-question-5.jpg", "images/ryans-question-6.jpg"]
 const imgAlts = ["img-1", "img-2", "img-3", "img-4", "img-5", "img-6"]
 
 let pointer = 0

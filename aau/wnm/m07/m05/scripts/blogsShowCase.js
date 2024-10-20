@@ -32,7 +32,7 @@ function createBlogCards(altTxt, imgSrc, id, blogText) {
 
 }
 
-const images = ["images/Valkyrie-home-resized.jpg", "images/Valkyrie-home-resized.jpg"]
+const images = ["images/bungie_blog (1).jpg", "images/elder_scrolls_blog (1).jpg"]
 const imgAlts = ["img-1", "img-2"]
 const blogTexts = [
     "Blog post info 1",
