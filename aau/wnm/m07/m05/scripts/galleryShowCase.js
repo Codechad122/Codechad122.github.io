@@ -26,7 +26,19 @@ const images = [
 const imageAlts = ["img-1", "img-2", "img-3", "img-4", "img-5", "img-6", "img-7", "img-8", "img-9", "img-10", "img-11", "img-12"]
 
 const blogLinks = [
-    "/gallery-image-1.html", "/gallery-image-2.html", "/gallery-image-3.html","/gallery-image-4.html", "/gallery-image-5.html", "/gallery-image-6.html", "/gallery-image-7.html", "/gallery-image-8.html", "/gallery-image-9.html", "/gallery-image-10.html","/gallery-image-11.html", "/gallery-image-12.html",
+    "/aau/wnm/m07/m05/gallery-image-1.html",
+    "/aau/wnm/m07/m05/gallery-image-2.html",
+    "/aau/wnm/m07/m05/gallery-image-3.html",
+    "/aau/wnm/m07/m05/gallery-image-4.html",
+    "/aau/wnm/m07/m05/gallery-image-5.html",
+    "/aau/wnm/m07/m05/gallery-image-6.html",
+    "/aau/wnm/m07/m05/gallery-image-7.html",
+    "/aau/wnm/m07/m05/gallery-image-8.html",
+    "/aau/wnm/m07/m05/gallery-image-9.html",
+    "/aau/wnm/m07/m05/gallery-image-10.html",
+    "/aau/wnm/m07/m05/gallery-image-11.html",
+    "/aau/wnm/m07/m05/gallery-image-12.html",
+
 ]
 let pointer = 0
 while (pointer < images.length) {

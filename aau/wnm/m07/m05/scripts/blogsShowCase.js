@@ -20,8 +20,8 @@ function createBlogCards(altTxt, imgSrc, id, link) {
 const images = ["images/bungie_blog (1).jpg", "images/elder_scrolls_blog (1).jpg"]
 const imgAlts = ["img-1", "img-2"]
 const blogLinks = [
-    "/blog-page-1.html", 
-    "/blog-page-2.html",
+    "/aau/wnm/m07/m05/blog-page-2.html", 
+    "/aau/wnm/m07/m05/blog-page-1.html",
     
 ]
 
