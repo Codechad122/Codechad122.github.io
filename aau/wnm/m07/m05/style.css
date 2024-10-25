@@ -206,6 +206,10 @@
     
 }
 
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
 #rotate:hover{
     animation: rotateKeyFrame 3s;
     animation-timing-function: ease-in-out;
