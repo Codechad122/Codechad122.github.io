@@ -13,6 +13,15 @@
     justify-content: space-between;
     max-width: 896px;
 }
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));

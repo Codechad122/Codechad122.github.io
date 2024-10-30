@@ -17,7 +17,7 @@ function createGalleryCards(altTxt, imgSrc, description) {
 }
 
 const images = [
-    "images/bug_image.png", "images/c_language.jpg", "images/python_image.jpg", "images/first_programmer.jpg", "images/bootstrap_image.jpg"
+    "images/bug_in_code.jpg", "images/c_language.jpg", "images/python_image.jpg", "images/first_programmer.jpg", "images/bootstrap_image.jpg"
 ]
 
 const descriptions = [
