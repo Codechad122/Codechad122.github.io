@@ -18,7 +18,11 @@ class CustomHeader extends HTMLElement {
         for(let i = 0; i < navListItems.length; i++){
             let navItem = document.createElement('li')
             let navLink = document.createElement('a')
-            navLink.href = `${navListItems[i].toLowerCase()}.html`
+            if (navListItems[i].toLocaleLowerCase() === "about" || navListItems[i].toLocaleLowerCase() === "logo"){
+                navLink.href = `index.html`
+            } else {
+                navLink.href = `${navListItems[i].toLowerCase()}.html`
+            }
             navItem.appendChild(navLink)
             navLink.innerText = navListItems[i]
             navList.appendChild(navItem)
