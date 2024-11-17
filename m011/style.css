@@ -3,13 +3,43 @@
     justify-content: center;
 }
 
+.news-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.news-card {
+    display: flex;
+    flex-direction: column;
+    width: 587px;
+    gap: 16px;
+
+}
+
+.news-card-img {
+    height: 255px;
+    background-color: gray;
+    width: 100%;
+
+}
+
+.news-card-button {
+
+}
+
+.news-card-info {
+
+}
+
 .contact-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: gray;
     padding: 16px;
-    /* gap: 16px; */
 
 }
 
