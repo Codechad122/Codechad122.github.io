@@ -1,6 +1,45 @@
-.team-title {
+.page-title {
     display: flex;
     justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    padding: 16px;
+    /* gap: 16px; */
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-names{
+    display: flex;
+    gap: 16px;
+}
+
+.form-names-firstlast{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-email input{
+    width: 100%;
+}
+
+.form-message input {
+    width: 100%
+}
+
+.form-submit {
+    display: flex;
+    justify-content: end;
 }
 
 .team-cards {
