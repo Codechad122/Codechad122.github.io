@@ -21,7 +21,7 @@ class CustomHeader extends HTMLElement {
             if (navListItems[i].toLocaleLowerCase() === "about" || navListItems[i].toLocaleLowerCase() === "logo"){
                 navLink.href = `index.html`
             } else {
-                navLink.href = `${navListItems[i].toLowerCase()}.html`
+                navLink.href = `/m011/${navListItems[i].toLowerCase()}.html`
             }
             navItem.appendChild(navLink)
             navLink.innerText = navListItems[i]
