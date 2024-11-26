@@ -34,6 +34,7 @@
 
 .service-container-1 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 16px;
     margin-bottom: 48px;
@@ -41,8 +42,7 @@
 }
 
 .service-container-1-img {
-    height: 355px;
-    width: 100%;
+    display: flex;
 
 }
 
@@ -53,6 +53,7 @@
 
 .service-container-2 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 16px;
     margin-top: 48px;
@@ -64,9 +65,7 @@
 }
 
 .service-container-2-img {
-    height: 489px;
-    width: 100%;
-    background-color: gray;
+    display: flex;
 
 }
 
