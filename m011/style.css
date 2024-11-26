@@ -169,9 +169,13 @@
 }
 
 .team-card-img {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 255px;
-    background-color: gray;
+}
+
+.team-card-img {
 }
 
 .team-card-info {
