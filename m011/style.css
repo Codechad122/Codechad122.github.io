@@ -166,6 +166,19 @@ body {
 
 }
 
+.news-card-button {
+    background-color: #F5721F;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 0.375rem;
+    padding: 4px
+}
+
+.news-card-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .news-card-img {
     height: 255px;
     display: flex;
