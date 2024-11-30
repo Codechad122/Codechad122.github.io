@@ -1,12 +1,9 @@
 body {
     background-color: #4b4875;
     color: #ffffff;
-    position: relative;
-    min-height: 100vh;
 }
 
 .footer {
-    position: absolute;
     bottom: 0%;
     width: 100%;
     font-size: 20px;
