@@ -166,6 +166,10 @@ body {
 
 }
 
+.news-card-info {
+    width: 50%;
+}
+
 .news-card-button {
     background-color: #F5721F;
     color: #ffffff;
