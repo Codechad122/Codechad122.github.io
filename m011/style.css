@@ -73,6 +73,8 @@ body {
     margin-top: 48px;
     align-items: center;
     width: 100%;
+    padding: 16px;
+    justify-content: center;
 }
 
 .home-img {
@@ -86,6 +88,7 @@ body {
 .home-info {
     display: flex;
     flex-direction: column;
+    max-width: 50%;
 
 }
 
