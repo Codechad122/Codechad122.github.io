@@ -51,11 +51,12 @@ class CustomHeader extends HTMLElement {
             }
             
             .headerNav div {
-                max-width: fit-content;
+                width: 50%;
             }
 
             .headerNav nav {
-                width: 100%;
+                width: 50%;
+                background-color: aqua;
             }
 
             .headerNav nav ul {
