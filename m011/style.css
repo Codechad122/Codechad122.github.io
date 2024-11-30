@@ -1,9 +1,3 @@
-.headerNav {
-    display: flex;
-    align-items: center;
-    justify-items: space-between;
-    background-color: aqua;
-}
 .home-title {
     display: flex;
     flex-direction: column;
