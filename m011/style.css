@@ -45,7 +45,17 @@ body {
 .header-nav li a{
     color: black;
     text-decoration: none;
-    color: #ffffff
+    color: #ffffff;
+    transition-duration: 0.5s;
+}
+
+.header-nav li a:hover{
+    background-color: #F5721F;
+    padding: 4px;
+    border-radius: 0.375rem;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+
 }
 
 
