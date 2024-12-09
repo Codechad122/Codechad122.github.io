@@ -1,6 +1,9 @@
 body {
     background-color: #4b4875;
     color: #ffffff;
+    font-family: "Rubik";
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 @keyframes fadeIn {
