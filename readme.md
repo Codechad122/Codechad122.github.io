@@ -1,1 +1,1 @@
-this is stuff for web design 2
+this is for midpoint portfolio 
